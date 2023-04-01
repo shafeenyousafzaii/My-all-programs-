@@ -4,7 +4,7 @@
 using namespace std;
 class personType
 {
-private:
+protected:
    string firstname;
    string lastname;
 public:
@@ -18,7 +18,7 @@ public:
 class doctorType : public personType
 {
 private:
-     
+      string DOC_SPECIALITY;
 public:
     doctorType();
     ~doctorType();
